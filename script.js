@@ -54,7 +54,7 @@ function showQuestion(){
 }
 
 function showResult(){
-	questionElement.innerText = `You scored ${score}/4 correctly`;
+	questionElement.innerText = `You answered ${score}/4 questions correctly`;
 	aTextElement.style.display = "none";
 	bTextElement.style.display = "none";
 	cTextElement.style.display = "none";
